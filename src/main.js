@@ -2,11 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router'
+// import router from './router'
 import axios from 'axios';
 import Antd from 'ant-design-vue'
 import ElementUI from 'element-ui';
-import store from './store'
+// import store from './store'
 import 'element-ui/lib/theme-chalk/index.css'
 import drag from '../static/js/drag.js'
 
@@ -23,8 +23,8 @@ Vue.prototype.$axios = axios;
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  router,
-  store,
+  // router,
+  // store,
   components: { App },
   template: '<App/>'
 })

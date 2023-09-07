@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view/>
+    <h1 style="text-align: center;">My test</h1>  
   </div>
 </template>
 
