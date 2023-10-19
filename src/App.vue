@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1 style="text-align: center;">My test</h1>  
+    <h1 style="text-align: center;">My test1</h1>  
   </div>
 </template>
 
