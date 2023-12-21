@@ -11,6 +11,12 @@ import 'element-ui/lib/theme-chalk/index.css'
 import drag from '../static/js/drag.js'
 
 import 'ant-design-vue/dist/antd.css';
+//视频播放
+require('video.js/dist/video-js.css')
+require('vue-video-player/src/custom-theme.css')
+// require('vue-video-player/index.js')
+import VideoPlayer from 'vue-video-player'
+Vue.use(VideoPlayer);
 
 //自定义drag指令
 Vue.directive('drag',drag)
